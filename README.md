@@ -6,11 +6,11 @@
 我们采用的算法在A榜排名第1，得分0.5678，提交request_id 2022062923314973979051；B榜排名第3，得分0.5570，提交request_id 2022071220561848633908，
 
 <img src="https://github.com/22TonyFStark/
-SemanticGeneration_da_Vinci/raw/main/selects/3481474497_8409ea7057_b.jpg" width="300">
+SemanticGeneration_da_Vinci/tree/main/selects/3481474497_8409ea7057_b.jpg" width="300">
 <img src="https://github.com/22TonyFStark/
-SemanticGeneration_da_Vinci/raw/main/selects/5951555151_13dbd1c42e_b.jpg" width="300">
+SemanticGeneration_da_Vinci/tree/main/selects/5951555151_13dbd1c42e_b.jpg" width="300">
 <img src="https://github.com/22TonyFStark/
-SemanticGeneration_da_Vinci/raw/main/selects/7646157822_18126d0db6_b.jpg" width="300">
+SemanticGeneration_da_Vinci/tree/main/selects/7646157822_18126d0db6_b.jpg" width="300">
 
 
 ## 简介
