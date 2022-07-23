@@ -1,0 +1,1 @@
+使用了jittor.models里的VGG16和VGG19，训练数据集为ImageNet，链接为https://cg.cs.tsinghua.edu.cn/jittor/assets/docs/_modules/jittor/models/vgg.html#vgg16

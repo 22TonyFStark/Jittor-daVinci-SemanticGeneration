@@ -1,0 +1,42 @@
+CUDA_VISIBLE_DEVICES=0,1,2,3 python test_unite.py \
+	--name UNITE_eqlrsn_nce_dists_sesame_x256 \
+	--dataset_mode scene \
+  --dataroot '/home/qingzhongfei/A_scene/630CODE_v1/data/B/' \
+	--correspondence 'ot' \
+	--nThreads 0 \
+	--use_attention \
+	--maskmix \
+	--warp_mask_losstype direct \
+	--PONO \
+	--PONO_C \
+	--eqlr_sn  \
+	--adaptor_nonlocal \
+	--batchSize 4 \
+	--aspect_ratio 1 \
+	--im_height 256 \
+  --im_width 256 \
+	--gpu_ids 0,1,2,3 \
+  --which_epoch 35 \
+  --no_pairing_check 
+  
+CUDA_VISIBLE_DEVICES=0,1,2,3 python test.py \
+	--name UNITE_eqlrsn_nce_dists_sesame_x256 \
+	--dataset_mode scene \
+  --dataroot '/home/qingzhongfei/A_scene/630CODE_v1/data/B/' \
+	--correspondence 'ot' \
+	--nThreads 0 \
+	--use_attention \
+	--maskmix \
+	--warp_mask_losstype direct \
+	--PONO \
+	--PONO_C \
+	--eqlr_sn  \
+	--adaptor_nonlocal \
+	--batchSize 4 \
+	--aspect_ratio 1 \
+	--im_height 256 \
+  --im_width 256 \
+	--gpu_ids 0,1,2,3 \
+  --which_epoch 40 \
+  --no_pairing_check 
+

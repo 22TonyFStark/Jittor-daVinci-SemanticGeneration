@@ -1,0 +1,35 @@
+CUDA_VISIBLE_DIVICES=0,1 mpirun -np 2 python3 -m train.py \
+  --name UNITE_eqlrsn_nce_dists_sesame_x256 \
+  --dataset_mode scene \
+  --dataroot '/home/qingzhongfei/A_scene/SPADE/datasets/train/train/' \
+  --correspondence 'ot' \
+  --display_freq 2000 \
+  --niter 30 \
+  --niter_decay 30 \
+  --aspect_ratio 1 \
+  --maskmix \
+  --use_attention \
+  --warp_mask_losstype direct \
+  --weight_mask 120.0 \
+  --adaptor_nonlocal \
+  --ctx_w 0.4 \
+  --gpu_ids 0,1 \
+  --batchSize 4  \
+  --label_nc 29 \
+  --mcl  \
+  --nce_w 0.1\
+  --warp_self_w  10\
+  --warp_cycle_w  10\
+  --skip_corr  \
+  --dists_w 12.5 \
+  --load_size 286 \
+  --crop_size 256 \
+  --im_height 256 \
+  --im_width 256 \
+  --continue_train  \
+  --which_epoch 30 \
+  --eqlr_sn  \
+  --PONO \
+  --PONO_C \
+  --checkpoints_dir checkpoints 
+  
